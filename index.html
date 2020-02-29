@@ -2,28 +2,114 @@
 <html>
 
 <head>
-<title>Flexbox and BEM</title>
-<link rel="stylesheet" href="styles/index.css">
+    <title>Flexbox and BEM</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d280d8d72e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d280d8d72e.js" crossorigin="anonymous"></script>
 </head>
 
 
-<body>
+<body class="screen">
 
-<header>
+    <header class="navContainer headerColor">
+        <div class="navImg">
+            <img class="imgGlobe" src="img/globe 1.png" alt="globe">
+        </div>
+        <nav class="navBar">
+            <ul class="navList navBarContainer">
+                <li><a class="navLinkRed" href="#">Red</a></li>
+                <li><a class="navLinkBlue" href="#">Blue</a></li>
+                <li><a class="navLinkYellow" href="#">Yellow</a></li>
+                <li><a class="navLinkGreen" href="#">Green</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<nav></nav>
-</header>
+    <main class="screen">
 
-<main>
+        <section class="mainContainer">
+            <div class="greyBox">
+                <div class="centerText heading">
+                    <p>I <i class="fas fa-heart"></i> color</p>
+                </div>
+                <div>
+                    <p class="centerText">
+                        Color isn’t that difficult to get right, if you know where to start.
+                        Learn by doing and you’ll be a master in no time.
+                    </p>
+                </div>
+                <div class="centerText">
+                    <button class="button" type="button">Over to you</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mainContainer">
+            <div class="whiteBox">
+                <div class="direction">
+                    <div class="cardOne">
+                        <div class="textCard">
+                            <div>
+                                <i class="fas fa-fish fa-4x"></i>
+                            </div>
+                            <div class="headingBlack">
+                                <h2>Blue</h2>
+                            </div>
+                            <p class="centerText padding14">
+                                Blue is the color of the sky and sea.
+                                It is often associated with depth and stability.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="direction">
+                    <div class="cardTwo">
+                        <div class="textCard">
+                            <div>
+                                <i class="fab fa-pagelines fa-4x"></i>
+                            </div>
+                            <div class="headingBlack">
+                                <h2>Green</h2>
+                            </div>
+                            <p class="centerText padding14">
+                                Green is the color of nature.
+                                It symbolizes growth, harmony, freshness and fertility.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="direction">
+                    <div class="cardThree">
+                        <div class="textCard">
+                            <div>
+                                <i class="fas fa-fire fa-4x"></i>
+                            </div>
+                            <div class="headingBlack">
+                                <h2>Red</h2>
+                            </div>
+                            <p class="centerText padding14">
+                                Red is the color of fire and blood,
+                                so it assosiates with energy, strength,
+                                power determination, as well as, passion.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
-</main>
+    </main>
 
 
 
 
-<footer></footer>
+    <footer></footer>
 </body>
-</html>
 
+</html>
